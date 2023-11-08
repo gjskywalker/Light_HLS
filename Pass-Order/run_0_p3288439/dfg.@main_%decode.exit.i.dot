@@ -1,0 +1,23 @@
+digraph {
+Node0x560817b23e40[label="  %.apl1.i.i.i.0 = select i1 %437, i32 %..."];
+Node0x560817b23e40 -> Node0x560817b23e40[label="D:3.99ns L:0",color=blue];
+Node0x560817b23e40 -> Node0x560817b23e40[label="D:3.99ns L:0",color=blue];
+Node0x560817b23f20[label="  %470 = icmp slt i32 %.apl1.i.i.i.0, %4..."];
+Node0x560817b23f20 -> Node0x560817b23f20[label="D:3.36ns L:0",color=blue];
+Node0x560817b24000[label="  %471 = mul nsw i32 %460, -44"];
+Node0x560817b24000 -> Node0x560817b24000[label="D:2.59ns L:1",color=blue];
+Node0x560817b240e0[label="  %472 = mul nsw i32 %461, 12"];
+Node0x560817b240e0 -> Node0x560817b240e0[label="D:2.59ns L:1",color=blue];
+Node0x560817b241c0[label="  %apl1.i.i.i.2 = select i1 %470, i32 %4..."];
+Node0x560817b241c0 -> Node0x560817b241c0[label="D:3.99ns L:0",color=blue];
+Node0x560817b242a0[label="  %473 = add nsw i32 %xa1.i.i.0, %471"];
+Node0x560817b242a0 -> Node0x560817b242a0[label="D:2.50ns L:0",color=blue];
+Node0x560817b24380[label="  %474 = ashr i32 %473, 14"];
+Node0x560817b24380 -> Node0x560817b24380[label="D:0.00ns L:0",color=blue];
+Node0x560817b24460[label="  %475 = add nsw i32 %xa2.i.i.0, %472"];
+Node0x560817b24460 -> Node0x560817b24460[label="D:2.50ns L:0",color=blue];
+Node0x560817b24540[label="  %476 = ashr i32 %475, 14"];
+Node0x560817b24540 -> Node0x560817b24540[label="D:0.00ns L:0",color=blue];
+Node0x560817b249a0[label="  %indvar.next38 = add i32 %indvar37, 1"];
+Node0x560817b249a0 -> Node0x560817b249a0[label="D:2.50ns L:0",color=blue];
+}

@@ -1,0 +1,31 @@
+digraph {
+Node0x560817b07a90[label="  %145 = phi i32 [ %.9.i32, %143 ], [ 12..."];
+Node0x560817b07a90 -> Node0x560817b07a90[label="D:0.00ns L:0",color=blue];
+Node0x560817b07a90 -> Node0x560817b07a90[label="D:0.00ns L:0",color=blue];
+Node0x560817b07b70[label="  %146 = mul nsw i32 %al1.0, 255"];
+Node0x560817b07b70 -> Node0x560817b07b70[label="D:2.59ns L:1",color=blue];
+Node0x560817b07c50[label="  %147 = ashr i32 %146, 8"];
+Node0x560817b07c50 -> Node0x560817b07c50[label="D:0.00ns L:0",color=blue];
+Node0x560817b07d30[label="  %148 = ashr i32 %131, 31"];
+Node0x560817b07d30 -> Node0x560817b07d30[label="D:0.00ns L:0",color=blue];
+Node0x560817b07e10[label="  %149 = and i32 %148, -384"];
+Node0x560817b07e10 -> Node0x560817b07e10[label="D:0.00ns L:0",color=blue];
+Node0x560817b07ef0[label="  %150 = add nsw i32 %149, 192"];
+Node0x560817b07ef0 -> Node0x560817b07ef0[label="D:2.50ns L:0",color=blue];
+Node0x560817b07fd0[label="  %apl1.i11.i4.i.0 = add nsw i32 %147, %..."];
+Node0x560817b07fd0 -> Node0x560817b07fd0[label="D:2.50ns L:0",color=blue];
+Node0x560817b07fd0 -> Node0x560817b07fd0[label="D:2.50ns L:0",color=blue];
+Node0x560817b080b0[label="  %151 = sub nsw i32 15360, %145"];
+Node0x560817b080b0 -> Node0x560817b080b0[label="D:2.40ns L:0",color=blue];
+Node0x560817b080b0 -> Node0x560817b080b0[label="D:2.40ns L:0",color=blue];
+Node0x560817b080b0 -> Node0x560817b080b0[label="D:2.40ns L:0",color=blue];
+Node0x560817b08190[label="  %152 = icmp sgt i32 %apl1.i11.i4.i.0, ..."];
+Node0x560817b08190 -> Node0x560817b08190[label="D:3.13ns L:0",color=blue];
+Node0x560817b08270[label="  %153 = load i32* getelementptr inbound..."];
+Node0x560817b08270 -> Node0x560817b08270[label="D:0.00ns L:2",color=blue];
+Node0x560817b08350[label="  %154 = load i32* getelementptr inbound..."];
+Node0x560817b08350 -> Node0x560817b08350[label="D:0.00ns L:2",color=blue];
+Node0x560817b08350 -> Node0x560817b08350[label="D:0.00ns L:2",color=blue];
+Node0x560817b08430[label="  %155 = mul nsw i32 %153, %154"];
+Node0x560817b08430 -> Node0x560817b08430[label="D:2.59ns L:1",color=blue];
+}
