@@ -1,0 +1,6 @@
+digraph {
+Node0x560817afa9b0[label="  %38 = load i32* getelementptr inbounds..."];
+Node0x560817afa9b0 -> Node0x560817afa9b0[label="D:0.00ns L:2",color=blue];
+Node0x560817afaa90[label="  %39 = load i32* getelementptr inbounds..."];
+Node0x560817afaa90 -> Node0x560817afaa90[label="D:0.00ns L:2",color=blue];
+}

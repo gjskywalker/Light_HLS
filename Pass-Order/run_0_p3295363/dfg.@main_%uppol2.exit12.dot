@@ -1,0 +1,31 @@
+digraph {
+Node0x55e6214c71a0[label="  %344 = phi i32 [ %.9.i10, %342 ], [ 12..."];
+Node0x55e6214c71a0 -> Node0x55e6214c71a0[label="D:0.00ns L:0",color=blue];
+Node0x55e6214c71a0 -> Node0x55e6214c71a0[label="D:0.00ns L:0",color=blue];
+Node0x55e6214c7280[label="  %345 = mul nsw i32 %dec_al1.0, 255"];
+Node0x55e6214c7280 -> Node0x55e6214c7280[label="D:2.59ns L:1",color=blue];
+Node0x55e6214c7360[label="  %346 = ashr i32 %345, 8"];
+Node0x55e6214c7360 -> Node0x55e6214c7360[label="D:0.00ns L:0",color=blue];
+Node0x55e6214c7440[label="  %347 = ashr i32 %330, 31"];
+Node0x55e6214c7440 -> Node0x55e6214c7440[label="D:0.00ns L:0",color=blue];
+Node0x55e6214c7520[label="  %348 = and i32 %347, -384"];
+Node0x55e6214c7520 -> Node0x55e6214c7520[label="D:0.00ns L:0",color=blue];
+Node0x55e6214c7600[label="  %349 = add nsw i32 %348, 192"];
+Node0x55e6214c7600 -> Node0x55e6214c7600[label="D:2.50ns L:0",color=blue];
+Node0x55e6214c76e0[label="  %apl1.i11.i.i.0 = add nsw i32 %346, %3..."];
+Node0x55e6214c76e0 -> Node0x55e6214c76e0[label="D:2.50ns L:0",color=blue];
+Node0x55e6214c76e0 -> Node0x55e6214c76e0[label="D:2.50ns L:0",color=blue];
+Node0x55e6214c77c0[label="  %350 = sub nsw i32 15360, %344"];
+Node0x55e6214c77c0 -> Node0x55e6214c77c0[label="D:2.40ns L:0",color=blue];
+Node0x55e6214c77c0 -> Node0x55e6214c77c0[label="D:2.40ns L:0",color=blue];
+Node0x55e6214c77c0 -> Node0x55e6214c77c0[label="D:2.40ns L:0",color=blue];
+Node0x55e6214c78a0[label="  %351 = icmp sgt i32 %apl1.i11.i.i.0, %..."];
+Node0x55e6214c78a0 -> Node0x55e6214c78a0[label="D:3.13ns L:0",color=blue];
+Node0x55e6214c7980[label="  %352 = load i32* getelementptr inbound..."];
+Node0x55e6214c7980 -> Node0x55e6214c7980[label="D:0.00ns L:2",color=blue];
+Node0x55e6214c7a60[label="  %353 = load i32* getelementptr inbound..."];
+Node0x55e6214c7a60 -> Node0x55e6214c7a60[label="D:0.00ns L:2",color=blue];
+Node0x55e6214c7a60 -> Node0x55e6214c7a60[label="D:0.00ns L:2",color=blue];
+Node0x55e6214c7b40[label="  %354 = mul nsw i32 %352, %353"];
+Node0x55e6214c7b40 -> Node0x55e6214c7b40[label="D:2.59ns L:1",color=blue];
+}

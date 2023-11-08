@@ -1,0 +1,16 @@
+digraph {
+Node0x560817b08a50[label="  %.0471 = getelementptr [6 x i32]* @del..."];
+Node0x560817b08a50 -> Node0x560817b08a50[label="D:20.00ns L:0",color=blue];
+Node0x560817b08b30[label="  %.0472 = getelementptr [6 x i32]* @del..."];
+Node0x560817b08b30 -> Node0x560817b08b30[label="D:20.00ns L:0",color=blue];
+Node0x560817b08c10[label="  %158 = load i32* %.0471, align 4"];
+Node0x560817b08c10 -> Node0x560817b08c10[label="D:0.00ns L:2",color=blue];
+Node0x560817b08cf0[label="  %159 = load i32* %.0472, align 4"];
+Node0x560817b08cf0 -> Node0x560817b08cf0[label="D:0.00ns L:2",color=blue];
+Node0x560817b08dd0[label="  %160 = mul nsw i32 %158, %159"];
+Node0x560817b08dd0 -> Node0x560817b08dd0[label="D:2.59ns L:1",color=blue];
+Node0x560817b08eb0[label="  %161 = add nsw i32 %zl.i7.i6.i.0, %160"];
+Node0x560817b08eb0 -> Node0x560817b08eb0[label="D:2.50ns L:0",color=blue];
+Node0x560817b08f90[label="  %indvar.next62 = add i32 %indvar61, 1"];
+Node0x560817b08f90 -> Node0x560817b08f90[label="D:2.50ns L:0",color=blue];
+}

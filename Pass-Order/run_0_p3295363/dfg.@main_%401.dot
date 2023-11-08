@@ -1,0 +1,26 @@
+digraph {
+Node0x55e6214cb880[label="  %scevgep24 = getelementptr [6 x i32]* ..."];
+Node0x55e6214cb880 -> Node0x55e6214cb880[label="D:20.00ns L:0",color=blue];
+Node0x55e6214cb960[label="  %402 = load i32* %scevgep24, align 4"];
+Node0x55e6214cb960 -> Node0x55e6214cb960[label="D:0.00ns L:2",color=blue];
+Node0x55e6214cba40[label="  %403 = mul nsw i32 %375, %402"];
+Node0x55e6214cba40 -> Node0x55e6214cba40[label="D:2.59ns L:1",color=blue];
+Node0x55e6214cbb20[label="  %404 = ashr i32 %403, 31"];
+Node0x55e6214cbb20 -> Node0x55e6214cbb20[label="D:0.00ns L:0",color=blue];
+Node0x55e6214cbc00[label="  %405 = and i32 %404, -256"];
+Node0x55e6214cbc00 -> Node0x55e6214cbc00[label="D:0.00ns L:0",color=blue];
+Node0x55e6214cbce0[label="  %406 = or i32 %405, 128"];
+Node0x55e6214cbce0 -> Node0x55e6214cbce0[label="D:0.00ns L:0",color=blue];
+Node0x55e6214cbdc0[label="  %407 = load i32* %scevgep23, align 4"];
+Node0x55e6214cbdc0 -> Node0x55e6214cbdc0[label="D:0.00ns L:2",color=blue];
+Node0x55e6214cc140[label="  store i32 %410, i32* %scevgep23, align..."];
+Node0x55e6214cbdc0 -> Node0x55e6214cc140[label="D:0.00ns L:2",color=red];
+Node0x55e6214cbea0[label="  %408 = mul nsw i32 %407, 255"];
+Node0x55e6214cbea0 -> Node0x55e6214cbea0[label="D:2.59ns L:1",color=blue];
+Node0x55e6214cbf80[label="  %409 = ashr i32 %408, 8"];
+Node0x55e6214cbf80 -> Node0x55e6214cbf80[label="D:0.00ns L:0",color=blue];
+Node0x55e6214cc060[label="  %410 = add nsw i32 %406, %409"];
+Node0x55e6214cc060 -> Node0x55e6214cc060[label="D:2.50ns L:0",color=blue];
+Node0x55e6214cc220[label="  %411 = add nsw i32 %400, 1"];
+Node0x55e6214cc220 -> Node0x55e6214cc220[label="D:2.50ns L:0",color=blue];
+}
