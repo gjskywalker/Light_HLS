@@ -1,8 +1,0 @@
-digraph {
-Node0x560817afa010[label="  %scevgep78 = getelementptr [11 x i32]*..."];
-Node0x560817afa010 -> Node0x560817afa010[label="D:20.00ns L:0",color=blue];
-Node0x560817afa0f0[label="  %scevgep77 = getelementptr [11 x i32]*..."];
-Node0x560817afa0f0 -> Node0x560817afa0f0[label="D:20.00ns L:0",color=blue];
-Node0x560817afa390[label="  %13 = add nsw i32 %11, 1"];
-Node0x560817afa390 -> Node0x560817afa390[label="D:2.50ns L:0",color=blue];
-}

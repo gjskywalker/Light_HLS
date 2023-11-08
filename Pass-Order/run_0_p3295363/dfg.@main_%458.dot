@@ -1,9 +1,0 @@
-digraph {
-Node0x55e6214cfda0[label="  %459 = sub nsw i32 0, %436"];
-Node0x55e6214cfda0 -> Node0x55e6214cfda0[label="D:2.40ns L:0",color=blue];
-Node0x55e6214cfda0 -> Node0x55e6214cfda0[label="D:2.40ns L:0",color=blue];
-Node0x55e6214cfe80[label="  %460 = load i32* getelementptr inbound..."];
-Node0x55e6214cfe80 -> Node0x55e6214cfe80[label="D:0.00ns L:2",color=blue];
-Node0x55e6214cff60[label="  %461 = load i32* getelementptr inbound..."];
-Node0x55e6214cff60 -> Node0x55e6214cff60[label="D:0.00ns L:2",color=blue];
-}
