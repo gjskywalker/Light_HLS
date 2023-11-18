@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_DuplicateInstRm.a CMakeFiles/HI_DuplicateInstRm.dir/HI_DuplicateInstRm.cc.o
+/usr/bin/ranlib libHI_DuplicateInstRm.a

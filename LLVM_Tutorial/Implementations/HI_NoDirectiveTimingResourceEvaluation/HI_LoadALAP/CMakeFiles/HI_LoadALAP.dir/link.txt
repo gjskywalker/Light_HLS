@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_LoadALAP.a CMakeFiles/HI_LoadALAP.dir/HI_LoadALAP.cc.o
+/usr/bin/ranlib libHI_LoadALAP.a

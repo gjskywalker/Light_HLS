@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_IR2SourceCode.a CMakeFiles/HI_IR2SourceCode.dir/HI_IR2SourceCode.cc.o
+/usr/bin/ranlib libHI_IR2SourceCode.a

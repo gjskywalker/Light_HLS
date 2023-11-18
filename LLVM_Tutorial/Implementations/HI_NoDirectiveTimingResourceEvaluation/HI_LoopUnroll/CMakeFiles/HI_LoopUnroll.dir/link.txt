@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_LoopUnroll.a CMakeFiles/HI_LoopUnroll.dir/HI_LoopUnroll.cc.o
+/usr/bin/ranlib libHI_LoopUnroll.a

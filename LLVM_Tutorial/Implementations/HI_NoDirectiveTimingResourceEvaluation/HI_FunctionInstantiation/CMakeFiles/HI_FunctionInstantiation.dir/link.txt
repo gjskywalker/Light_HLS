@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_FunctionInstantiation.a CMakeFiles/HI_FunctionInstantiation.dir/HI_FunctionInstantiation.cc.o
+/usr/bin/ranlib libHI_FunctionInstantiation.a

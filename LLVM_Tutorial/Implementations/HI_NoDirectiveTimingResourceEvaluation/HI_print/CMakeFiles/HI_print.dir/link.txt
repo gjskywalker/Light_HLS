@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_print.a CMakeFiles/HI_print.dir/HI_print.cc.o
+/usr/bin/ranlib libHI_print.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_MulOrderOpt.a CMakeFiles/HI_MulOrderOpt.dir/HI_MulOrderOpt.cc.o
+/usr/bin/ranlib libHI_MulOrderOpt.a

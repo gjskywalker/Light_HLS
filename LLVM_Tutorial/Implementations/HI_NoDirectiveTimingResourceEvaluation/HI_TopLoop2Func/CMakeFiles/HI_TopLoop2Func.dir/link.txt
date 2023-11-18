@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_TopLoop2Func.a CMakeFiles/HI_TopLoop2Func.dir/HI_TopLoop2Func.cc.o
+/usr/bin/ranlib libHI_TopLoop2Func.a

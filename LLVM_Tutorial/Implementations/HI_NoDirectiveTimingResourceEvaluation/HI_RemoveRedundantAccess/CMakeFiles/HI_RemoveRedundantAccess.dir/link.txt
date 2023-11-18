@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_RemoveRedundantAccess.a CMakeFiles/HI_RemoveRedundantAccess.dir/HI_RemoveRedundantAccess.cc.o
+/usr/bin/ranlib libHI_RemoveRedundantAccess.a

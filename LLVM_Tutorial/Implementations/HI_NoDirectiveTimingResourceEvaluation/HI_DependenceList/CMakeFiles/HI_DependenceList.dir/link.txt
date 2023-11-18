@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_DependenceList.a CMakeFiles/HI_DependenceList.dir/HI_DependenceList.cc.o
+/usr/bin/ranlib libHI_DependenceList.a

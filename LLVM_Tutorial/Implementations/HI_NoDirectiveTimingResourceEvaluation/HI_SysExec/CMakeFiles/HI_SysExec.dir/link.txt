@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_SysExec.a CMakeFiles/HI_SysExec.dir/HI_SysExec.cc.o
+/usr/bin/ranlib libHI_SysExec.a

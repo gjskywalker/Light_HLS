@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_FaddOrderOpt.a CMakeFiles/HI_FaddOrderOpt.dir/HI_FaddOrderOpt.cc.o
+/usr/bin/ranlib libHI_FaddOrderOpt.a

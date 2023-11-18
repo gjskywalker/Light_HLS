@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHI_ReplaceSelectAccess.a CMakeFiles/HI_ReplaceSelectAccess.dir/HI_ReplaceSelectAccess.cc.o
+/usr/bin/ranlib libHI_ReplaceSelectAccess.a
